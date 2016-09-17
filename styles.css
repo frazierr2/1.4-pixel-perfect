@@ -324,9 +324,17 @@ padding-top: 54px;
   font-family: 'Oswald';
   text-transform: uppercase;
   margin: 0;
+  font-size: 18px;
+  padding-left: 44px;
+  padding-top: 45px;
 
 }
 .container-right p{
   font-family: 'Open Sans';
   margin: 0;
+  font-size: 14px;
+  padding-left: 42px;
+  padding-right: 194px;
+  padding-top: 6px;
+  line-height: 1.7;
 }
