@@ -245,19 +245,78 @@ line-height: 26px;
   font-size: 20px;
   background-color: #5D686F;
   color: white;
-  margin-left: 127px;
+  margin-left: 122px;
   vertical-align: middle;
   padding: 6px;
-
+  padding-right: 6px;
+  padding-left: 11px;
+  position: relative;
+  top: -1px;
+  left: 4px;
 }
 
 .re{
-  font-size: 15px;
+  background-color: #A2B3BE;
+  font-size: 13px;
   font-family: 'Open Sans';
   position: relative;
-  background-color: blue;
   color: white;
+  padding-top: 7px;
+  padding-left: 11px;
+  padding-right: 12px;
+  padding-bottom: 7px;
+}
 
+.fa-clock-o{
+  font-size: 20px;
+  background-color: #5D686F;
+  color: white;
+  /*margin-left: 122px;*/
+  vertical-align: middle;
+  padding: 6px;
+  padding-right: 6px;
+  padding-left: 11px;
+  position: relative;
+  top: -1px;
+  left: 4px;
+}
+
+.rl{
+  background-color: #A2B3BE;
+  font-size: 13px;
+  font-family: 'Open Sans';
+  position: relative;
+  color: white;
+  padding-top: 7px;
+  padding-left: 11px;
+  padding-right: 17px;
+  padding-bottom: 7px;
+}
+
+.fa-share{
+  font-size: 20px;
+  background-color: #003451;
+  color: white;
+  /*margin-left: 122px;*/
+  vertical-align: middle;
+  padding: 6px;
+  padding-right: 6px;
+  padding-left: 11px;
+  position: relative;
+  top: -1px;
+  left: 4px;
+}
+
+.share{
+  background-color: #006DB0;
+  font-size: 13px;
+  font-family: 'Open Sans';
+  position: relative;
+  color: white;
+  padding-top: 7px;
+  padding-left: 11px;
+  padding-right: 17px;
+  padding-bottom: 7px;
 }
 
 /*RIGHT CONTENT*/
