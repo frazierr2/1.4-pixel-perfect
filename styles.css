@@ -128,6 +128,7 @@ h3{
 
 /*LEFT COLUMN*/
 .container-left{
+  display: inline-block;
   background-color: lightgrey;
   width: 63%;
   border-bottom: 4px solid red;
@@ -208,4 +209,124 @@ line-height: 26px;
 }
 .inside-middle h2{
   text-transform: uppercase;
+  font-family: 'Open Sans';
+  margin: 0;
+  font-size: 27px;
+  margin-left: 167px;
+  margin-top: 32px;
+  color: #0073B4;
+  padding-left: 17px;
+  border-left: 3px solid #CDCDCD;
+}
+
+/*BOTTOM LEFT MIDDLE*/
+.inside-bottom{
+  background-color: lightblue;
+}
+
+.inside-bottom p{
+  font-family: 'Open Sans';
+  color: #5D686F;
+  font-size: 15px;
+  padding-left: 165px;
+  padding-right: 50px;
+  padding-top: 21px;
+  line-height: 26px;
+}
+.rollover:hover{
+  color: green;
+}
+
+.hlinks{
+  position: relative;
+
+}
+.fa-book{
+  font-size: 20px;
+  background-color: #5D686F;
+  color: white;
+  margin-left: 127px;
+  vertical-align: middle;
+  padding: 6px;
+
+}
+
+.re{
+  font-size: 15px;
+  font-family: 'Open Sans';
+  position: relative;
+  background-color: blue;
+  color: white;
+
+}
+
+/*RIGHT CONTENT*/
+
+.container-right{
+  display: inline-block;
+  width: 37%;
+  background-color: lightblue;
+  float: right;
+}
+.container-right ul{
+  margin: 0;
+  font-size: 13px;
+  margin-left: 47px;
+
+}
+.headshot2 {
+  padding-left: 141px;
+  padding-top: 83px;
+}
+.container-right h3{
+  margin: 0;
+  font-family: 'Open Sans';
+  text-transform: uppercase;
+  font-size: 16px;
+  padding-left: 135px;
+  padding-top: 7px;
+  color: #2078B5;
+
+}
+.t{
+  font-family: 'Open Sans';
+  color:#A2B3BE;
+  font-size: 13px;
+
+}
+.f{
+  font-family: 'Open Sans';
+  padding-left: 10px;
+  color: #A2B3BE;
+  font-size: 13px;
+
+}
+.in{
+  font-family: 'Open Sans';
+  padding-left: 12px;
+  color: #A2B3BE;
+  font-size: 13px;
+
+}
+.girl{
+padding-left: 43px;
+padding-top: 54px;
+}
+.container-right a{
+  display: block;
+  font-family: 'Open Sans';
+  font-size: 13px;
+  padding-left: 234px;
+  padding-top: 4px;
+  color: #A2B3BE;
+}
+.container-right h4{
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  margin: 0;
+
+}
+.container-right p{
+  font-family: 'Open Sans';
+  margin: 0;
 }
