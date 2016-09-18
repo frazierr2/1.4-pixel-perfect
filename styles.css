@@ -429,6 +429,20 @@ padding-top: 54px;
 .bottom ul{
   margin: 0;
 }
+
+/*div .fence:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 96, 172, 0.6);
+}
+*/
+
+
+
 .pic1{
   display: inline-block;
   color: #003450;
@@ -477,8 +491,10 @@ padding-top: 54px;
   background-color: #003451;
   color: #A2B3BE;
   position: relative;
-  bottom: 28px;
-  left: 166px;
+  bottom: 35px;
+  padding-left: 158px;
+  line-height: 65px;
+  margin-top: -14px;
 }
 .tiy{
   color: #A2B3BE;
@@ -488,27 +504,45 @@ padding-top: 54px;
 .company{
 color: #A2B3BE;
 font-family: 'Open Sans';
+font-size: 13px;
+padding-left: 10px;
 }
 .nav{
   display: inline-block;
-
   color: #A2B3BE;
+  font-family: 'Open Sans';
+  padding-left: 250px;
 }
 .nav-item-1{
   color: #A2B3BE;
-
+  font-size: 13px;
+  padding-left: 4px;
+  position: relative;
+  padding-right: 10px;
+  border-right: 2px solid #A2B3BE;
+  line-height: 13px;
 }
 .nav-item-2{
   color: #A2B3BE;
+  font-size: 13px;
+  padding-left: 2px;
+  padding-right: 10px;
+  border-right: 2px solid #A2B3BE;
+  line-height: 13px;
 
 }
 .nav-item-3{
   color: #A2B3BE;
-
+  font-size: 13px;
+  padding-left: 3px;
+  padding-right: 10px;
+  border-right: 2px solid #A2B3BE;
+  line-height: 13px;
 }
 .nav-item-4{
   color: #A2B3BE;
-
+  font-size: 13px;
+  padding-left: 3px;
 }
 a{
   color: #A2B3BE;
