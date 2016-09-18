@@ -397,3 +397,77 @@ padding-top: 54px;
   padding-top: 6px;
   line-height: 1.7;
 }
+
+
+.mpp{
+  background-color: orange;
+  color: #003451;
+  text-transform: uppercase;
+  font-family:'Oswald';
+  font-size: 63px;
+  text-align: center;
+  padding-top: 27px;
+  margin-bottom: 0;
+
+}
+
+
+/*BOTTOM SECTION*/
+.bottom{
+  background-color: lightgreen;
+  display: inline-block;
+  margin-top: 32px;
+  padding: 0;
+  position: relative;
+}
+
+.bottom img{
+  height: 332px;
+  width: 322px;
+}
+
+.bottom ul{
+  margin: 0;
+}
+.pic1{
+  display: inline-block;
+  color: #003450;
+  font-family: 'Oswald';
+  font-size: 30px;
+  text-transform: uppercase;
+  position: relative;
+  bottom: 57px;
+  right: 27px;
+}
+.pic2{
+  display: inline-block;
+  color:white;
+  font-family: 'Oswald';
+  font-size: 30px;
+  text-transform: uppercase;
+  position: relative;
+  bottom: 57px;
+  left: 51px;
+}
+.pic3{
+  display:block;
+  color: #003450;
+  font-family: 'Oswald';
+  font-size: 30px;
+  text-transform: uppercase;
+  position: absolute;;
+  bottom: 57px;
+  left: 668px;
+  width: 230px;
+
+}
+.pic4{
+  display: inline-block;
+  color: #003450;
+  font-family: 'Oswald';
+  font-size: 30px;
+  text-transform: uppercase;
+  position: relative;
+  bottom: 57px;
+  left: 573px;
+}
