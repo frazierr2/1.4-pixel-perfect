@@ -123,25 +123,25 @@ h3{
 
 /*BEGINNING OF MIDDLE SECTION*/
 .middle-container{
-  background-color: yellow;
+  /*background-color: yellow;*/
 }
 
 /*LEFT COLUMN*/
 .container-left{
   display: inline-block;
-  background-color: lightgrey;
+  /*background-color: lightgrey;*/
   width: 63%;
-  border-bottom: 4px solid red;
+  /*border-bottom: 4px solid red;*/
 }
 
 /*TOP OF MIDDLE LEFT CONTAINER*/
 .inside-top{
-  background-color: pink;
+  /*background-color: pink;*/
 
 
 }
 .top-heading{
-  background: lightgreen;
+  /*background: lightgreen;*/
 }
 .top-heading h2{
   margin: 0;
@@ -221,7 +221,7 @@ line-height: 26px;
 
 /*BOTTOM LEFT MIDDLE*/
 .inside-bottom{
-  background-color: lightblue;
+  /*background-color: lightblue;*/
 }
 
 .inside-bottom p{
@@ -324,7 +324,7 @@ line-height: 26px;
 .container-right{
   display: inline-block;
   width: 37%;
-  background-color: lightblue;
+  /*background-color: lightblue;*/
   float: right;
 }
 .container-right ul{
@@ -400,7 +400,7 @@ padding-top: 54px;
 
 
 .mpp{
-  background-color: orange;
+  /*background-color: orange;*/
   color: #003451;
   text-transform: uppercase;
   font-family:'Oswald';
@@ -470,4 +470,47 @@ padding-top: 54px;
   position: relative;
   bottom: 57px;
   left: 573px;
+}
+
+    /*FOOTER*/
+.iron{
+  background-color: #003451;
+  color: #A2B3BE;
+  position: relative;
+  bottom: 28px;
+  left: 166px;
+}
+.tiy{
+  color: #A2B3BE;
+  height: 35px;
+  vertical-align: middle;
+}
+.company{
+color: #A2B3BE;
+font-family: 'Open Sans';
+}
+.nav{
+  display: inline-block;
+
+  color: #A2B3BE;
+}
+.nav-item-1{
+  color: #A2B3BE;
+
+}
+.nav-item-2{
+  color: #A2B3BE;
+
+}
+.nav-item-3{
+  color: #A2B3BE;
+
+}
+.nav-item-4{
+  color: #A2B3BE;
+
+}
+a{
+  color: #A2B3BE;
+
 }
