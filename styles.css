@@ -414,7 +414,6 @@ padding-top: 54px;
 
 /*BOTTOM SECTION*/
 .bottom{
-  background-color: lightgreen;
   display: inline-block;
   margin-top: 32px;
   padding: 0;
@@ -430,7 +429,7 @@ padding-top: 54px;
   margin: 0;
 }
 
-/*div .fence:before{
+.bottom:before{
   content: "";
   position: absolute;
   top: 0;
@@ -439,7 +438,7 @@ padding-top: 54px;
   right: 0;
   background-color: rgba(0, 96, 172, 0.6);
 }
-*/
+
 
 
 
