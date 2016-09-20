@@ -412,12 +412,10 @@ padding-top: 54px;
 }
 
 
-/*BOTTOM SECTION*/
+/*BOTTOM SECTION WITH PICTURES*/
 .bottom{
-  display: inline-block;
   margin-top: 32px;
   padding: 0;
-  position: relative;
 }
 
 
@@ -431,106 +429,72 @@ padding-top: 54px;
   margin: 0;
 }
 
-.picture1{
+
+.bottom li{
+  position: relative; /* absolute pos child */
   float: left;
-  display: inline-block;
+  height: 435px;
+  width: 301px;
+  background-size: cover;
 }
-/*.picture1:hover{
+
+.bottom li:before{
   content: "";
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
-  right: 974px;
-  background-color: rgba(0, 96, 172, 0.6);
-}*/
-.picture2{
-  float: left;
-  display: inline-block;
-}
-.picture3{
-  float: left;
-  display: inline-block;
-}
-.picture4{
-  float: left;
-  display: inline-block;
-}
-
-
-/*.picture3::before{
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 648px;
-  right: 322px;
-  background-color: rgba(0, 96, 172, 0.6);
-}*/
-
-/*.picture4::before{
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 973px;
   right: 0;
   background-color: rgba(0, 96, 172, 0.6);
-}*/
+}
+
+.bottom li:hover:before{
+  display: none;
+}
+
+.bottom li h2{
+  position: absolute;
+  bottom: 10px;
+  font-size: 30px;
+  font-family:'Oswald';
+  text-transform: uppercase;
+  color: white;
+}
+
+.fence{
+  background-image: url(http://www.themominitiative.com/wp-content/uploads/2013/04/MP900430863.jpg);
+}
+
+.beers{
+  background-image: url(http://www.thesandbarcapitola.com/wp-content/uploads/2015/11/beers.jpg);
+}
+
+.zach{
+  background-image: url(https://img02.rl0.ru/afisha/560x-/s1.afisha.net/MediaStorage/a5175ff56e6c429387bc43cd5caa.jpg);
+}
+
+.another{
+  background-image: url(https://static.pexels.com/photos/1022/sky-sunset-field-trees.jpg);
+}
+
+.clearfix:after{
+  content: "";
+  display: block;
+  clear:both;
+}
 
 
-.pic1{
-  display: inline-block;
-  color: #003450;
-  font-family: 'Oswald';
-  font-size: 30px;
-  text-transform: uppercase;
-  position: relative;
-  bottom: 57px;
-  right: 27px;
-}
-.pic2{
-  display: inline-block;
-  color:white;
-  font-family: 'Oswald';
-  font-size: 30px;
-  text-transform: uppercase;
-  position: relative;
-  bottom: 57px;
-  left: 51px;
-}
-.pic3{
-  display:block;
-  color: #003450;
-  font-family: 'Oswald';
-  font-size: 30px;
-  text-transform: uppercase;
-  position: absolute;;
-  bottom: 57px;
-  left: 668px;
-  width: 230px;
 
-}
-.pic4{
-  display: inline-block;
-  color: #003450;
-  font-family: 'Oswald';
-  font-size: 30px;
-  text-transform: uppercase;
-  position: relative;
-  bottom: 57px;
-  left: 573px;
-}
 
     /*FOOTER*/
 .iron{
   background-color: #003451;
   color: #A2B3BE;
-  position: relative;
-  bottom: 35px;
-  padding-left: 158px;
+  /*position: relative;*/
+  /*bottom: 35px;*/
+  padding-left: 160px;
   line-height: 65px;
-  margin-top: -14px;
+  /*margin-top: -14px;*/
 }
 .tiy{
   color: #A2B3BE;
