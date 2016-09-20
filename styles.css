@@ -416,6 +416,7 @@ padding-top: 54px;
 .bottom{
   margin-top: 32px;
   padding: 0;
+  margin-left: -36px;
 }
 
 
@@ -433,8 +434,8 @@ padding-top: 54px;
 .bottom li{
   position: relative; /* absolute pos child */
   float: left;
-  height: 435px;
-  width: 301px;
+  height: 332px;
+  width: 322px;
   background-size: cover;
 }
 
@@ -454,7 +455,8 @@ padding-top: 54px;
 
 .bottom li h2{
   position: absolute;
-  bottom: 10px;
+  bottom: -20px;
+  left: 24px;
   font-size: 30px;
   font-family:'Oswald';
   text-transform: uppercase;
